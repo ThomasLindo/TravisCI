@@ -7,7 +7,7 @@ compiler:
 script:
  - cd TravisCI
  - g++ TravisCI.cpp -o build.exe
- - build.exe
+ - run build.exe
 
 
 
