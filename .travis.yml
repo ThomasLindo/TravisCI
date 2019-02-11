@@ -2,12 +2,12 @@
 language: cpp
 # Compiler selection
 compiler:
- - clang
  - gcc
 # Build steps
 script:
  - cd TravisCI
  - g++ TravisCI.cpp -o build.exe
+ - build.exe
 
 
 
