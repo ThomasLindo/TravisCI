@@ -1,11 +1,14 @@
+# Enable C++ support
 language: cpp
-
-compiler: gcc
-
-before_install:
-  - test -n $CC  && unset CC
-  - test -n $CXX && unset CXX
-  
+# Compiler selection
+compiler:
+ - clang
+ - gcc
+# Build steps
+script:
+ - mkdir build
+ - cd build
+ - cmake .. && make 
 
 
 
