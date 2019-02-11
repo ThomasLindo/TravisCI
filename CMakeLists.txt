@@ -10,7 +10,5 @@ add_executable(
  TravisCI.cpp
  pch.cpp
  pch.h
- Vec3.cpp
- Vec3.h
 )
  
