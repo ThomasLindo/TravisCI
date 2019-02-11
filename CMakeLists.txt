@@ -6,6 +6,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 project(TravisCI)
 
 add_executable(
- test
+ penis
  TravisCI.cpp
 )
